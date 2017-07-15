@@ -13,7 +13,7 @@ namespace off
         {
             Process p = new Process();
 
-            p.StartInfo.UseShellExecute = false;
+            p.StartInfo.UseShellExecute = true;
             p.StartInfo.WorkingDirectory = Environment.CurrentDirectory;
             p.StartInfo.CreateNoWindow = true;
             p.StartInfo.RedirectStandardInput = true;
@@ -25,7 +25,7 @@ namespace off
                 if(args.Length > 0)
                     p.StandardInput.WriteLine("shutdown /s /t " + args[0]);
                 else
-                    p.StandardInput.WriteLine("shutdown /s /t 120");
+                    p.StandardInput.WriteLine("shutdown /s /t 60");
             }
             catch (Exception ex)
             {

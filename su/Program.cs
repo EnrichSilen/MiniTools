@@ -11,15 +11,16 @@ namespace su
     {
         static void Main(string[] args)
         {
-            ProcessStartInfo proc = new ProcessStartInfo();
-            proc.UseShellExecute = true;
-            proc.WorkingDirectory = Environment.CurrentDirectory;
-            proc.CreateNoWindow = false;
-            proc.FileName = "cmd";
-            proc.Verb = "runas";
+            Process p = new Process();
+            p.StartInfo.UseShellExecute = true;
+            p.StartInfo.WorkingDirectory = Environment.CurrentDirectory;
+            p.StartInfo.CreateNoWindow = false;
+            p.StartInfo.FileName = "cmd";
+            p.StartInfo.Verb = "runas";
+
             try
             {
-                Process.Start(proc);
+                p.Start();
             }
             catch (Exception ex)
             {
