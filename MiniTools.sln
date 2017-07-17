@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "off", "off\off.csproj", "{E26679A2-63A7-4394-A09A-91B7EFF7C350}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "su", "su\su.csproj", "{8345D644-41AB-4C33-A105-CDDF91F1E509}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logoff", "logoff\logoff.csproj", "{80847373-1091-48C1-B6BC-ABEF6AADA73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipwatcher", "ipwatcher\ipwatcher.csproj", "{97CE9606-1BCB-43C1-9261-0618301CD4DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{80847373-1091-48C1-B6BC-ABEF6AADA73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80847373-1091-48C1-B6BC-ABEF6AADA73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80847373-1091-48C1-B6BC-ABEF6AADA73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CE9606-1BCB-43C1-9261-0618301CD4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CE9606-1BCB-43C1-9261-0618301CD4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CE9606-1BCB-43C1-9261-0618301CD4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CE9606-1BCB-43C1-9261-0618301CD4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

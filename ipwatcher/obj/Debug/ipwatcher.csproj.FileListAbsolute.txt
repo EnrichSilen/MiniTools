@@ -1,0 +1,8 @@
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\bin\Debug\ipwatcher.exe.config
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\bin\Debug\ipwatcher.exe
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\bin\Debug\ipwatcher.pdb
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csprojResolveAssemblyReference.cache
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.exe
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.pdb
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.Watcher.resources
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.GenerateResource.Cache
