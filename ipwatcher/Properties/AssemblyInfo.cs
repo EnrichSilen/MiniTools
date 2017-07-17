@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Obecné informace o sestavení se řídí přes následující 
 // sadu atributů. Změnou hodnot těchto atributů se upraví informace
 // přidružené k sestavení.
-[assembly: AssemblyTitle("ipw")]
+[assembly: AssemblyTitle("IP Watcher")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ipwatcher")]
+[assembly: AssemblyProduct("IP Watcher")]
 [assembly: AssemblyCopyright("Enrich Silen © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
