@@ -23,7 +23,10 @@ namespace ipwatcher
         {
             lb_ip.Text = GetLocalIPAddress();
             AddIpToRecord();
+            lv_ipAdresses.TopItem = lv_ipAdresses.Items.Cast<ListViewItem>().LastOrDefault();
         }
+
+
 
         string lastIpRecord;
         private void AddIpToRecord()
@@ -49,6 +52,18 @@ namespace ipwatcher
             }
             return "0.0.0.0";
 
+        }
+
+        private void chb_OnTop_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chb_onTop.Checked)
+            {
+                TopMost = true;
+            }
+            else
+            {
+                TopMost = false;
+            }
         }
     }
 }

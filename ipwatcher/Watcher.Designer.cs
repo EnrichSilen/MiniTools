@@ -33,6 +33,7 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lb_ip = new System.Windows.Forms.Label();
             this.Tmr_ipWatcher = new System.Windows.Forms.Timer(this.components);
+            this.chb_onTop = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lv_ipAdresses
@@ -68,11 +69,23 @@
             this.Tmr_ipWatcher.Interval = 500;
             this.Tmr_ipWatcher.Tick += new System.EventHandler(this.Tmr_ipWatcher_Tick);
             // 
+            // chb_onTop
+            // 
+            this.chb_onTop.AutoSize = true;
+            this.chb_onTop.Location = new System.Drawing.Point(12, 220);
+            this.chb_onTop.Name = "chb_onTop";
+            this.chb_onTop.Size = new System.Drawing.Size(62, 17);
+            this.chb_onTop.TabIndex = 2;
+            this.chb_onTop.Text = "On Top";
+            this.chb_onTop.UseVisualStyleBackColor = true;
+            this.chb_onTop.CheckedChanged += new System.EventHandler(this.chb_OnTop_CheckedChanged);
+            // 
             // Watcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 223);
+            this.ClientSize = new System.Drawing.Size(284, 244);
+            this.Controls.Add(this.chb_onTop);
             this.Controls.Add(this.lb_ip);
             this.Controls.Add(this.lv_ipAdresses);
             this.Name = "Watcher";
@@ -88,5 +101,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.Label lb_ip;
         private System.Windows.Forms.Timer Tmr_ipWatcher;
+        private System.Windows.Forms.CheckBox chb_onTop;
     }
 }
