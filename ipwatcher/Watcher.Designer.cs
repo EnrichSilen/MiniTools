@@ -34,6 +34,7 @@
             this.lb_ip = new System.Windows.Forms.Label();
             this.Tmr_ipWatcher = new System.Windows.Forms.Timer(this.components);
             this.chb_onTop = new System.Windows.Forms.CheckBox();
+            this.bt_ping = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lv_ipAdresses
@@ -80,16 +81,28 @@
             this.chb_onTop.UseVisualStyleBackColor = true;
             this.chb_onTop.CheckedChanged += new System.EventHandler(this.chb_OnTop_CheckedChanged);
             // 
+            // bt_ping
+            // 
+            this.bt_ping.Location = new System.Drawing.Point(167, 216);
+            this.bt_ping.Name = "bt_ping";
+            this.bt_ping.Size = new System.Drawing.Size(75, 23);
+            this.bt_ping.TabIndex = 3;
+            this.bt_ping.Text = "TEST";
+            this.bt_ping.UseVisualStyleBackColor = true;
+            this.bt_ping.Click += new System.EventHandler(this.bt_ping_Click);
+            // 
             // Watcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 244);
+            this.Controls.Add(this.bt_ping);
             this.Controls.Add(this.chb_onTop);
             this.Controls.Add(this.lb_ip);
             this.Controls.Add(this.lv_ipAdresses);
             this.Name = "Watcher";
             this.Text = "Watcher";
+            this.Resize += new System.EventHandler(this.Watcher_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -102,5 +115,6 @@
         private System.Windows.Forms.Label lb_ip;
         private System.Windows.Forms.Timer Tmr_ipWatcher;
         private System.Windows.Forms.CheckBox chb_onTop;
+        private System.Windows.Forms.Button bt_ping;
     }
 }

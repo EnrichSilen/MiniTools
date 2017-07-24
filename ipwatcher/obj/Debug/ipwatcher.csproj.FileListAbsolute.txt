@@ -6,3 +6,4 @@ C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\bin\Debug\ipw.pdb
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipw.exe
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipw.pdb
+C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.Properties.Resources.resources
