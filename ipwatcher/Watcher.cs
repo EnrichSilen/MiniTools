@@ -19,11 +19,12 @@ namespace ipwatcher
         private NotifyIcon trayIcon;
 
         string lastIpRecord;
+        bool tray = false;
 
         public Watcher()
         {
             InitializeComponent();
-            Icon = Properties.Resources.icon;
+            
             InitTrayIcon();
 
         }
@@ -34,13 +35,20 @@ namespace ipwatcher
         {
             trayIcon = new NotifyIcon();
             trayIcon.BalloonTipIcon = ToolTipIcon.Info;
-            trayIcon.BalloonTipText = "I noticed that you double-clicked me! What can I do for you?";
-            trayIcon.BalloonTipTitle = "You called Master?";
-            trayIcon.Text = "My fabulous tray icon demo application";
+            trayIcon.BalloonTipText = "";
+            trayIcon.BalloonTipTitle = "IP Changed";
+            trayIcon.Text = "IP Watcher";
             if (GetOsName() == "Microsoft Windows 10 Home")
+            {
+                Icon = Properties.Resources.icon_invert;
                 trayIcon.Icon = Properties.Resources.icon_invert;
+            }
             else
+            {
+                Icon = Properties.Resources.icon;
                 trayIcon.Icon = Properties.Resources.icon;
+            }
+            trayIcon.DoubleClick += new EventHandler(TrayIcon_DoubleClick);
         }
 
         private string GetOsName()
@@ -57,6 +65,12 @@ namespace ipwatcher
                 var ipItem = new ListViewItem(lb_ip.Text);
                 lv_ipAdresses.Items.Add(ipItem);
                 lastIpRecord = lb_ip.Text;
+
+                if(tray)
+                {
+                    trayIcon.BalloonTipText = lb_ip.Text;
+                    trayIcon.ShowBalloonTip(1500);
+                }
             }
         }
 
@@ -86,6 +100,8 @@ namespace ipwatcher
             lb_ip.Text = GetLocalIPAddress();
             AddIpToRecord();
             lv_ipAdresses.TopItem = lv_ipAdresses.Items.Cast<ListViewItem>().LastOrDefault();
+
+            
         }
 
         private void chb_OnTop_CheckedChanged(object sender, EventArgs e)
@@ -102,15 +118,34 @@ namespace ipwatcher
 
         private void Watcher_Resize(object sender, EventArgs e)
         {
-            trayIcon.Visible = true;
+            if(WindowState == FormWindowState.Minimized)
+            {
+                trayIcon.Visible = true;
+                this.Hide();
+                tray = true;
+            }
+            else if (WindowState == FormWindowState.Normal)
+            {
+                trayIcon.Visible = false;
+                tray = false;
+            }
         }
 
         #endregion
 
         private void bt_ping_Click(object sender, EventArgs e)
         {
-            trayIcon.ShowBalloonTip(5000);
             
+        }
+
+        private void TrayIcon_DoubleClick(object Sender, EventArgs e)
+        {
+            this.Show();
+
+            if (WindowState == FormWindowState.Minimized)
+                WindowState = FormWindowState.Normal;
+
+            Activate();
         }
     } 
 }

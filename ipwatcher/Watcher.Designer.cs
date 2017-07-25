@@ -83,6 +83,7 @@
             // 
             // bt_ping
             // 
+            this.bt_ping.Enabled = false;
             this.bt_ping.Location = new System.Drawing.Point(167, 216);
             this.bt_ping.Name = "bt_ping";
             this.bt_ping.Size = new System.Drawing.Size(75, 23);
