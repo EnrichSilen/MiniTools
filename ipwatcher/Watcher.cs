@@ -10,7 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management;
-
+using System.Net;
+using System.Net.NetworkInformation;
 
 namespace ipwatcher
 {
@@ -89,6 +90,29 @@ namespace ipwatcher
 
         }
 
+        private static bool PingTest()
+        {
+            try
+            {
+                Ping myPing = new Ping();
+                string host = "8.8.8.8";
+                byte[] buffer = new byte[32];
+                int timeout = 1000;
+                PingOptions pingOptions = new PingOptions();
+                PingReply reply = myPing.Send(host, timeout, buffer, pingOptions);
+
+                if (reply.Status == IPStatus.Success)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
 
 
         #endregion
@@ -135,7 +159,10 @@ namespace ipwatcher
 
         private void bt_ping_Click(object sender, EventArgs e)
         {
-            
+            if (PingTest())
+                pb_pingResult.BackColor = Color.Green;
+            else
+                pb_pingResult.BackColor = Color.Red;
         }
 
         private void TrayIcon_DoubleClick(object Sender, EventArgs e)
