@@ -7,3 +7,13 @@ C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipw.exe
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipw.pdb
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.Properties.Resources.resources
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\bin\Debug\ipw.exe.config
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\bin\Debug\ipw.exe
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\bin\Debug\ipw.pdb
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csprojResolveAssemblyReference.cache
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.Properties.Resources.resources
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.Watcher.resources
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.GenerateResource.Cache
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.CoreCompileInputs.cache
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipw.exe
+C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipw.pdb

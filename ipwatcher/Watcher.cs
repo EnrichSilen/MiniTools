@@ -34,11 +34,13 @@ namespace ipwatcher
 
         private void InitTrayIcon()
         {
-            trayIcon = new NotifyIcon();
-            trayIcon.BalloonTipIcon = ToolTipIcon.Info;
-            trayIcon.BalloonTipText = "";
-            trayIcon.BalloonTipTitle = "IP Changed";
-            trayIcon.Text = "IP Watcher";
+            trayIcon = new NotifyIcon
+            {
+                BalloonTipIcon = ToolTipIcon.Info,
+                BalloonTipText = "",
+                BalloonTipTitle = "IP Changed",
+                Text = "IP Watcher"
+            };
             if (GetOsName() == "Microsoft Windows 10 Home")
             {
                 Icon = Properties.Resources.icon_invert;
@@ -56,7 +58,7 @@ namespace ipwatcher
         {
             var name = (from x in new ManagementObjectSearcher("SELECT Caption FROM Win32_OperatingSystem").Get().Cast<ManagementObject>()
                         select x.GetPropertyValue("Caption")).FirstOrDefault();
-            return name != null ? name.ToString() : "Unknown";
+            return name?.ToString() ?? "Unknown";
         }
 
         private void AddIpToRecord()
@@ -101,11 +103,7 @@ namespace ipwatcher
                 PingOptions pingOptions = new PingOptions();
                 PingReply reply = myPing.Send(host, timeout, buffer, pingOptions);
 
-                if (reply.Status == IPStatus.Success)
-                {
-                    return true;
-                }
-                return false;
+                return reply.Status == IPStatus.Success;
             }
             catch (Exception)
             {
@@ -145,7 +143,7 @@ namespace ipwatcher
             if(WindowState == FormWindowState.Minimized)
             {
                 trayIcon.Visible = true;
-                this.Hide();
+                Hide();
                 tray = true;
             }
             else if (WindowState == FormWindowState.Normal)
@@ -157,22 +155,38 @@ namespace ipwatcher
 
         #endregion
 
-        private void bt_ping_Click(object sender, EventArgs e)
+       
+        private void TrayIcon_DoubleClick(object sender, EventArgs e)
         {
-            if (PingTest())
-                pb_pingResult.BackColor = Color.Green;
-            else
-                pb_pingResult.BackColor = Color.Red;
-        }
-
-        private void TrayIcon_DoubleClick(object Sender, EventArgs e)
-        {
-            this.Show();
+            Show();
 
             if (WindowState == FormWindowState.Minimized)
                 WindowState = FormWindowState.Normal;
 
             Activate();
+        }
+
+        private void Tmr_ConnectionCheck_Tick(object sender, EventArgs e)
+        {
+            if (PingTest())
+                pb_pingResult.BackColor = Color.Green;
+            else
+                pb_pingResult.BackColor = Color.Red;
+            Tmr_ConnectionCheck.Interval = 2500;
+        }
+
+        private void chb_connectionCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chb_connectionCheck.Checked)
+            {
+                Tmr_ConnectionCheck.Start();
+
+            }
+            else
+            {
+                Tmr_ConnectionCheck.Stop();
+                Tmr_ConnectionCheck.Interval = 1;
+            }
         }
     } 
 }

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d4bf1a5-8fe4-475c-b9e6-fcf21ef02413" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Watcher.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ipwatcher/Watcher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <folding>
+                <marker date="1506022105876" expanded="false" signature="6:337" ph="..." />
+                <marker date="1506022105876" expanded="true" signature="358:4637" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="400:4634" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="526:623" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="633:3129" ph="Methods" />
+                <marker date="1506022105876" expanded="true" signature="685:1385" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="746:933" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="994:1145" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="1162:1299" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="1421:1710" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="1748:2162" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="1802:2152" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="1993:2138" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="2213:2548" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="2333:2507" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="2415:2493" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="2588:3107" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="2614:3009" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3039:3097" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3139:4142" ph="Events" />
+                <marker date="1506022105876" expanded="true" signature="3222:3425" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3500:3693" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3545:3605" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3622:3683" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3758:4122" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="3825:3952" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="4012:4112" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="4206:4379" ph="{...}" />
+                <marker date="1506022105876" expanded="true" signature="4450:4628" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ipwatcher/Watcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ipwatcher/Watcher.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ipwatcher/Watcher.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiniTools (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiniTools (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipwatcher" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Watcher.cs" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiniTools (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipwatcher" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d4bf1a5-8fe4-475c-b9e6-fcf21ef02413" name="Default" comment="" />
+      <created>1506021857176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506021857176</updated>
+      <workItem from="1506021860431" duration="941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="941000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ipwatcher/Watcher.cs</url>
+          <line>61</line>
+          <properties startOffset="1709" endOffset="1710" documentPath="$PROJECT_DIR$/ipwatcher/Watcher.cs" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ipwatcher/Watcher.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506021747369" expanded="true" signature="19:5892" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="47:5890" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="62:138" ph="/// Required designer variable. ... " />
+            <marker date="1506021747369" expanded="true" signature="216:407" ph="/// Clean up any resources being used. ... " />
+            <marker date="1506021747369" expanded="true" signature="463:637" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="524:590" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="647:5476" ph="Windows Form Designer generated code" />
+            <marker date="1506021747369" expanded="true" signature="701:864" ph="/// Required method for Designer support - do not modify ... " />
+            <marker date="1506021747369" expanded="true" signature="907:5456" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="1647:1695" ph="/* lv_ipAdresses ... */" />
+            <marker date="1506021747369" expanded="true" signature="1784:1817" ph="{...}" />
+            <marker date="1506021747369" expanded="true" signature="2324:2372" ph="/* columnHeader1 ... */" />
+            <marker date="1506021747369" expanded="true" signature="2480:2520" ph="/* lb_ip ... */" />
+            <marker date="1506021747369" expanded="true" signature="2981:3029" ph="/* Tmr_ipWatcher ... */" />
+            <marker date="1506021747369" expanded="true" signature="3225:3269" ph="/* chb_onTop ... */" />
+            <marker date="1506021747369" expanded="true" signature="3758:3800" ph="/* bt_ping ... */" />
+            <marker date="1506021747369" expanded="true" signature="4208:4256" ph="/* pb_pingResult ... */" />
+            <marker date="1506021747369" expanded="true" signature="4650:4692" ph="/* Watcher ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipwatcher/Watcher.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipwatcher/Watcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <marker date="1506022105876" expanded="false" signature="6:337" ph="..." />
+            <marker date="1506022105876" expanded="true" signature="358:4637" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="400:4634" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="526:623" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="633:3129" ph="Methods" />
+            <marker date="1506022105876" expanded="true" signature="685:1385" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="746:933" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="994:1145" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="1162:1299" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="1421:1710" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="1748:2162" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="1802:2152" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="1993:2138" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="2213:2548" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="2333:2507" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="2415:2493" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="2588:3107" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="2614:3009" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3039:3097" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3139:4142" ph="Events" />
+            <marker date="1506022105876" expanded="true" signature="3222:3425" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3500:3693" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3545:3605" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3622:3683" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3758:4122" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="3825:3952" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="4012:4112" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="4206:4379" ph="{...}" />
+            <marker date="1506022105876" expanded="true" signature="4450:4628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
