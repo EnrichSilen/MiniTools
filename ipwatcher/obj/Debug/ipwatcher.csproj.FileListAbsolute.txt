@@ -17,3 +17,13 @@ C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.
 C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.CoreCompileInputs.cache
 C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipw.exe
 C:\Users\Enrich\source\repos\cmd\MiniTools\ipwatcher\obj\Debug\ipw.pdb
+D:\CSharp\MiniTools\ipwatcher\bin\Debug\ipw.exe.config
+D:\CSharp\MiniTools\ipwatcher\bin\Debug\ipw.exe
+D:\CSharp\MiniTools\ipwatcher\bin\Debug\ipw.pdb
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipwatcher.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipwatcher.Properties.Resources.resources
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipwatcher.Watcher.resources
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.GenerateResource.Cache
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipwatcher.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipw.exe
+D:\CSharp\MiniTools\ipwatcher\obj\Debug\ipw.pdb

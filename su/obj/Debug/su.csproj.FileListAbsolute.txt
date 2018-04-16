@@ -10,3 +10,10 @@ C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\su\bin\De
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\su\obj\Debug\su.csprojResolveAssemblyReference.cache
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\su\obj\Debug\su.exe
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\su\obj\Debug\su.pdb
+D:\CSharp\MiniTools\su\bin\Debug\su.exe.config
+D:\CSharp\MiniTools\su\bin\Debug\su.exe
+D:\CSharp\MiniTools\su\bin\Debug\su.pdb
+D:\CSharp\MiniTools\su\obj\Debug\su.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\su\obj\Debug\su.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\su\obj\Debug\su.exe
+D:\CSharp\MiniTools\su\obj\Debug\su.pdb

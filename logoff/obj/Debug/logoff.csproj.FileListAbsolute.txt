@@ -10,3 +10,10 @@ C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\logoff\bi
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\logoff\obj\Debug\logoff.csprojResolveAssemblyReference.cache
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\logoff\obj\Debug\logoff.exe
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\logoff\obj\Debug\logoff.pdb
+D:\CSharp\MiniTools\logoff\bin\Debug\logoff.exe.config
+D:\CSharp\MiniTools\logoff\bin\Debug\logoff.exe
+D:\CSharp\MiniTools\logoff\bin\Debug\logoff.pdb
+D:\CSharp\MiniTools\logoff\obj\Debug\logoff.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\logoff\obj\Debug\logoff.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\logoff\obj\Debug\logoff.exe
+D:\CSharp\MiniTools\logoff\obj\Debug\logoff.pdb

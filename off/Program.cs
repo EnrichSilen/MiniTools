@@ -25,7 +25,7 @@ namespace off
                 if(args.Length > 0)
                     p.StandardInput.WriteLine("shutdown /s /t " + args[0]);
                 else
-                    p.StandardInput.WriteLine("shutdown /s /t 60");
+                    p.StandardInput.WriteLine("shutdown /s /t 0");
             }
             catch (Exception ex)
             {

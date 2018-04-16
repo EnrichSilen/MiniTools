@@ -10,3 +10,10 @@ C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\off\bin\D
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\off\obj\Debug\off.csprojResolveAssemblyReference.cache
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\off\obj\Debug\off.exe
 C:\Users\Enrich\Documents\Visual Studio 2017\Projects\C#\cmd\MiniTools\off\obj\Debug\off.pdb
+D:\CSharp\MiniTools\off\bin\Debug\off.exe.config
+D:\CSharp\MiniTools\off\bin\Debug\off.exe
+D:\CSharp\MiniTools\off\bin\Debug\off.pdb
+D:\CSharp\MiniTools\off\obj\Debug\off.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\off\obj\Debug\off.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\off\obj\Debug\off.exe
+D:\CSharp\MiniTools\off\obj\Debug\off.pdb
