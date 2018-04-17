@@ -1,0 +1,10 @@
+D:\CSharp\MiniTools\pingtest\bin\Debug\pingtest.exe.config
+D:\CSharp\MiniTools\pingtest\bin\Debug\pingtest.exe
+D:\CSharp\MiniTools\pingtest\bin\Debug\pingtest.pdb
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.PingTester.resources
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.Properties.Resources.resources
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.csproj.GenerateResource.Cache
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.exe
+D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.pdb
