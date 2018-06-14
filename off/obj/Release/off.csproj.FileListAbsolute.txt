@@ -1,0 +1,6 @@
+D:\CSharp\MiniTools\off\bin\Release\off.exe.config
+D:\CSharp\MiniTools\off\bin\Release\off.exe
+D:\CSharp\MiniTools\off\bin\Release\off.pdb
+D:\CSharp\MiniTools\off\obj\Release\off.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\off\obj\Release\off.exe
+D:\CSharp\MiniTools\off\obj\Release\off.pdb

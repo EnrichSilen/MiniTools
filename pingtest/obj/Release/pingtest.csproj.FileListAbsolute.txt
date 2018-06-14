@@ -7,3 +7,4 @@ D:\CSharp\MiniTools\pingtest\obj\Release\pingtest.csproj.GenerateResource.Cache
 D:\CSharp\MiniTools\pingtest\obj\Release\pingtest.csproj.CoreCompileInputs.cache
 D:\CSharp\MiniTools\pingtest\obj\Release\pingtest.exe
 D:\CSharp\MiniTools\pingtest\obj\Release\pingtest.pdb
+D:\CSharp\MiniTools\pingtest\obj\Release\pingtest.csprojResolveAssemblyReference.cache

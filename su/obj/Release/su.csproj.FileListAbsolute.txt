@@ -1,0 +1,7 @@
+D:\CSharp\MiniTools\su\bin\Release\su.exe.config
+D:\CSharp\MiniTools\su\bin\Release\su.exe
+D:\CSharp\MiniTools\su\bin\Release\su.pdb
+D:\CSharp\MiniTools\su\obj\Release\su.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\su\obj\Release\su.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\su\obj\Release\su.exe
+D:\CSharp\MiniTools\su\obj\Release\su.pdb

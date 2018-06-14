@@ -1,0 +1,6 @@
+D:\CSharp\MiniTools\logoff\bin\Release\logoff.exe.config
+D:\CSharp\MiniTools\logoff\bin\Release\logoff.exe
+D:\CSharp\MiniTools\logoff\bin\Release\logoff.pdb
+D:\CSharp\MiniTools\logoff\obj\Release\logoff.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\logoff\obj\Release\logoff.exe
+D:\CSharp\MiniTools\logoff\obj\Release\logoff.pdb

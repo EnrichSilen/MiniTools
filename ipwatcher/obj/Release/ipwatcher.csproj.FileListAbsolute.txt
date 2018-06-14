@@ -1,0 +1,10 @@
+D:\CSharp\MiniTools\ipwatcher\bin\Release\ipw.exe.config
+D:\CSharp\MiniTools\ipwatcher\bin\Release\ipw.exe
+D:\CSharp\MiniTools\ipwatcher\bin\Release\ipw.pdb
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipwatcher.csprojResolveAssemblyReference.cache
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipwatcher.Properties.Resources.resources
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipwatcher.Watcher.resources
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipwatcher.csproj.GenerateResource.Cache
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipwatcher.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipw.exe
+D:\CSharp\MiniTools\ipwatcher\obj\Release\ipw.pdb
