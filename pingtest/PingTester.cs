@@ -111,7 +111,7 @@ namespace pingtest
              * I'm not sure if color is way to go or text
              * Maybe both or something else?
              */
-            if(menuItem.ForeColor == offColor)
+            if(menuItem.ForeColor == offColor || menuItem.Text == "On Top off")
             {
                 TopMost = true;
                 //menuItem.ForeColor = onColor;
