@@ -1,0 +1,6 @@
+D:\CSharp\MiniTools\md5\bin\Release\md5.exe.config
+D:\CSharp\MiniTools\md5\bin\Release\md5.exe
+D:\CSharp\MiniTools\md5\bin\Release\md5.pdb
+D:\CSharp\MiniTools\md5\obj\Release\md5.csproj.CoreCompileInputs.cache
+D:\CSharp\MiniTools\md5\obj\Release\md5.exe
+D:\CSharp\MiniTools\md5\obj\Release\md5.pdb
