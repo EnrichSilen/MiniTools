@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipwatcher", "ipwatcher\ipwa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pingtest", "pingtest\pingtest.csproj", "{F19765C8-7153-44B7-BA98-4DE8929F6DBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "md5", "md5\md5.csproj", "{59FD509F-4544-4AD9-B62F-50B56DA01DDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F19765C8-7153-44B7-BA98-4DE8929F6DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19765C8-7153-44B7-BA98-4DE8929F6DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F19765C8-7153-44B7-BA98-4DE8929F6DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FD509F-4544-4AD9-B62F-50B56DA01DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FD509F-4544-4AD9-B62F-50B56DA01DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FD509F-4544-4AD9-B62F-50B56DA01DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FD509F-4544-4AD9-B62F-50B56DA01DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
