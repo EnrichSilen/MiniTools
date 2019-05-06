@@ -7,42 +7,24 @@ namespace pingtest
 {
     public partial class PingTester : Form
     {
-        string hostName = "8.8.8.8";
         int timeout = 1000;
-
-        Color onColor = Color.Green;
-        Color offColor = Color.Red;
 
         public PingTester()
         {
             InitializeComponent();
-
-#if DEBUG
-            init(true);
-#else
-            init(false);
-#endif
+            
+            //custom Inits
+            tscbDomains.SelectedIndex = 0;
         }
 
         #region Private Methods
-
-        private void init(bool debug)
-        { 
-            timerPing.Start();
-            lbHostName.Text = hostName;
-            tscbIPs.SelectedIndex = 0;
-            //onTopToolStripMenuItem.ForeColor = offColor;
-        }
 
         private bool PingTest()
         {
             try
             {
-                byte[] buffer = new byte[32];
-
-                Ping ping = new Ping();
-                PingOptions pingOptions = new PingOptions();
-                PingReply reply = ping.Send(hostName, timeout, buffer, pingOptions);
+                var buffer = new byte[32];
+                var reply = new Ping().Send(lbHostName.Text, timeout, buffer, new PingOptions());
                 ColorTextOutput(reply.RoundtripTime);
 
                 return reply.Status == IPStatus.Success;
@@ -74,6 +56,7 @@ namespace pingtest
         {
             if (!PingTest())
             {
+                lbPingResult.ForeColor = Color.Black;
                 lbPingResult.Text = "No internet connection";
             }
         }
@@ -87,44 +70,24 @@ namespace pingtest
 
         private void tscbHostname_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var comboBox = (sender as ToolStripComboBox);
-
-            hostName = comboBox.SelectedItem.ToString();
-            lbHostName.Text = hostName;
-            //if (comboBox.Name == "tscbIPs")
-            //{
-            //    tscbDomains.SelectedIndex = -1;
-            //}
-            //else
-            //{
-            //    comboBox.SelectedIndex = -1;
-            //}
+            var comboBox = (sender as ToolStripComboBox); 
+            lbHostName.Text = comboBox.SelectedItem.ToString();
         }
         
         
         private void onTopToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var menuItem = sender as ToolStripItem;
-            //MessageBox.Show(menuItem.Name);
-
-            /*
-             * I'm not sure if color is way to go or text
-             * Maybe both or something else?
-             */
-            if(menuItem.ForeColor == offColor || menuItem.Text == "On Top off")
+            if (!TopMost)
             {
                 TopMost = true;
-                //menuItem.ForeColor = onColor;
-                menuItem.Text = "On Top on";
+                this.Text = "Ping Test (On Top)";
             }
             else
             {
                 TopMost = false;
-                //menuItem.ForeColor = offColor;
-                menuItem.Text = "On Top off";
+                this.Text = "Ping Test";
             }
         }
-
         #endregion
     }
 }

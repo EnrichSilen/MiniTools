@@ -5,3 +5,10 @@ D:\CSharp\MiniTools\md5\obj\Debug\md5.csprojResolveAssemblyReference.cache
 D:\CSharp\MiniTools\md5\obj\Debug\md5.csproj.CoreCompileInputs.cache
 D:\CSharp\MiniTools\md5\obj\Debug\md5.exe
 D:\CSharp\MiniTools\md5\obj\Debug\md5.pdb
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\bin\Debug\md5.exe.config
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\bin\Debug\md5.exe
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\bin\Debug\md5.pdb
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\obj\Debug\md5.csprojAssemblyReference.cache
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\obj\Debug\md5.csproj.CoreCompileInputs.cache
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\obj\Debug\md5.exe
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\md5\obj\Debug\md5.pdb

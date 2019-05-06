@@ -8,3 +8,13 @@ D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.csproj.GenerateResource.Cache
 D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.csproj.CoreCompileInputs.cache
 D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.exe
 D:\CSharp\MiniTools\pingtest\obj\Debug\pingtest.pdb
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\bin\Debug\pingtest.exe.config
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\bin\Debug\pingtest.exe
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\bin\Debug\pingtest.pdb
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.csprojAssemblyReference.cache
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.PingTester.resources
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.Properties.Resources.resources
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.csproj.GenerateResource.cache
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.csproj.CoreCompileInputs.cache
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.exe
+C:\Users\Enrich\Documents\Projects\C#\MiniTools\pingtest\obj\Debug\pingtest.pdb
